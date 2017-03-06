@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Web Based Routing Program</title>
+    <meta  content= "text/html" />
+    <link rel="stylesheet" type ="text/css" href="style.css" />
+</head>
+<body>
+<div1 class="container" value = "A">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${A}" /></button>
+</div1>
+<div class="line-linkage-one">
+</div>
+<div class="line-linkage-two">
+</div>
+<div2 class="container" value = "B">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${B}" /></button>
+</div2>
+<div3 class="container" value = "C">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${C}" /></button>
+</div3>
+
+<div4 class="container" value = "D">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${D}" /></button>
+</div4>
+<div5 class="container" value = "E">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${E}" /></button>
+</div5>
+<div6 class="container" value = "F">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${F}" /></button>
+</div6>
+<div7 class="container" value = "G">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${G}" /></button>
+</div7>
+<div8 class="container" value = "H">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${H}" /></button>
+</div8>
+<div9 class="container" value = "I">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${I}" /></button>
+</div9>
+<div10 class="container" value = "J">
+    <button class="pulse-button"><span class = "hoverover" th:text = "${J}" /></button>
+</div10>
+<div class="line-linkage-three">
+</div>
+<div class="line-linkage-four">
+</div>
+<div class="line-linkage-five">
+</div>
+<div class="line-linkage-six">
+</div>
+<div class="line-linkage-seven">
+</div>
+<div class="line-linkage-eight">
+</div>
+<div class="line-linkage-nine">
+</div>
+<div class="line-linkage-ten">
+</div>
+<div class="line-linkage-eleven">
+</div>
+<div class="line-linkage-twelve">
+</div>
+<div class="line-linkage-thirteen">
+</div>
+<div class="line-linkage-fourteen">
+</div>
+<div class="line-linkage-fithteen">
+</div>
+<div class="line-linkage-sixteen">
+</div>
+<div class="line-linkage-seventeen">
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<form action="#" th:action="@{/}" th:object="${mapGraph}" method="post" >
+<p> Please select your start point</p>
+<select name ="start">
+    <option th:text = "${A}" />
+    <option th:text = "${B}" />
+    <option th:text = "${C}" />
+    <option th:text = "${D}" />
+    <option th:text = "${E}" />
+    <option th:text = "${F}" />
+    <option th:text = "${G}" />
+    <option th:text = "${H}" />
+    <option th:text = "${I}" />
+    <option th:text = "${J}" />
+</select>
+<p> Please select your end point</p>
+<select name="end">
+    <option th:text = "${A}" />
+    <option th:text = "${B}" />
+    <option th:text = "${C}" />
+    <option th:text = "${D}" />
+    <option th:text = "${E}" />
+    <option th:text = "${F}" />
+    <option th:text = "${G}" />
+    <option th:text = "${H}" />
+    <option th:text = "${I}" />
+    <option selected ="selected" th:text = "${J}" />
+</select>
+    <input type="submit" value="Sumbit"/>
+</form>
+<form>
+    <div th:if="${begin != null}" th:text="${begin}"/><div> is the start point</div>
+    <div th:if="${finish != null}" th:text="${finish}"/><div> is the finish point</div>
+    <div th:if="${distance != null}" th:text="${distance}"/><div> distance to get to destination</div>
+    <div th:if="${steps != null}" th:text="${steps}"/><div> number of links to get to destination</div>
+    <div th:if="${route != null}" th:text="${route}"/><div> route taken</div>
+</form>
+</body>
+</html>

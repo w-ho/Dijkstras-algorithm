@@ -1,0 +1,251 @@
+
+.container .hoverover {
+  width: 2000px;
+  height: 1000px;
+  margin: 0 auto 0;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+
+.container:hover .hoverover{
+   visibility: visible;}
+
+.pulse-button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(109, 240, 64, 0.7);
+  border-radius: 50%;
+  background-color: #61f534;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.pulse-button:hover
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+div1 {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+div2 {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+div3 {
+    position: relative;
+    top: 225px;
+    left: 160px;
+}
+div4 {
+    position: relative;
+    top: 350px;
+    left: 150px;
+}
+div5 {
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+div6 {
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+div7 {
+    position: relative;
+    top: 250px;
+    left: 240px;
+}
+div8 {
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+div9 {
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+div10 {
+    position: relative;
+    top: 350px;
+    left: 350px;
+}
+
+.line-linkage-one {
+    width: 90px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 125px;
+    left: 123px;
+    transform: rotate(-10deg);
+}
+
+.line-linkage-two {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 190px;
+    left: 95px;
+    transform: rotate(47deg);
+}
+.line-linkage-three {
+    width: 85px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 110px;
+    left: 215px;
+    transform: rotate(35deg);
+}
+
+.line-linkage-four {
+    width: 175px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 220px;
+    left: 210px;
+    transform: rotate(10deg);
+}
+
+.line-linkage-five {
+    width: 95px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 175px;
+    left: 200px;
+    transform: rotate(-30deg);
+}
+
+.line-linkage-six {
+    width: 110px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 265px;
+    left: 150px;
+    transform: rotate(80deg);
+}
+
+.line-linkage-seven {
+    width: 190px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 235px;
+    left: 165px;
+    transform: rotate(110deg);
+}
+
+.line-linkage-eight {
+    width: 245px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 73px;
+    left: 220px;
+    transform: rotate(0deg);
+}
+
+.line-linkage-nine {
+    width: 170px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    transform: rotate(-20deg);
+}
+.line-linkage-ten {
+    width: 110px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 180px;
+    left: 290px;
+    transform: rotate(43deg);
+}
+
+.line-linkage-eleven {
+    width: 83px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 197px;
+    left: 400px;
+    transform: rotate(-30deg);
+}
+.line-linkage-thirteen {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 215px;
+    left: 405px;
+    transform: rotate(0deg);
+}
+.line-linkage-fourteen {
+    width: 80px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 118px;
+    left: 440px;
+    transform: rotate(80deg);
+}
+
+.line-linkage-fithteen {
+    width: 40px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 195px;
+    left: 475px;
+    transform: rotate(65deg);
+}
+.line-linkage-sixteen {
+    width: 260px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 190px;
+    left: 400px;
+    transform: rotate(65deg);
+}
+.line-linkage-seventeen {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #000;
+    position: relative;
+    top: 260px;
+    left: 490px;
+    transform: rotate(50deg);
+}
+
+
+
+
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
