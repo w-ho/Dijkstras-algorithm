@@ -1,0 +1,15 @@
+Finding the shortest path with sevearl options. Uses Spring boot for HTMl visuliastion.
+Broken down into three parts
+
+1. XML reader 
+2. Algoirthm 
+3. Html 
+
+1.1 The first part using a DOM reader to get all the information from a XML file which show you all the nodes and links between
+them. They are sorted into two categories Nodes with thier X and Y cooridnates and the Links between two node with the
+distance/weight to get between nodes. The parser reads them and sorts them and then tell the node Handler to creates each nodes and a a list of all the links that it
+see.
+
+2.1 The Node Handler can also be called to find the fastest route from and to any node. It does this using Dijkstra's Algorithm. Algoritm It checks if the end point is the start point, if so finish are return zero. For each nodes checks what is the next shortest path and that it has not been thier before. Checks if the current iteration is the shortest or if any has been found before. Repeats until found its end point. Returns the route it took to find the fastest paths and can get min Distance.
+
+3.1 A simple HTML file and css file to show what is happening. 
