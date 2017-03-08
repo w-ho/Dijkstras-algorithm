@@ -35,15 +35,12 @@ public class NodeHandler {
 
         if (start.equals(end)){
             smallest = 0;
+            minDistance = 0;
+            return routetoDestination(start, end, route);
         }
 
         findShortestPath(start, end, array, route);
         return routetoDestination(start, end, route);
-    }
-
-    public int stringtoInt(String character){
-        char c = character.charAt(0);
-        return Character.getNumericValue(c) - 10;
     }
 
     private String getLinksForNode(String start ,String end , int[][] array, int iteration, Map notDone, String [] route){
@@ -175,6 +172,11 @@ public class NodeHandler {
             }
         }
         return true;
+    }
+
+    private int stringtoInt(String character){
+        char c = character.charAt(0);
+        return Character.getNumericValue(c) - 10;
     }
 
     public int getMinDistance() {

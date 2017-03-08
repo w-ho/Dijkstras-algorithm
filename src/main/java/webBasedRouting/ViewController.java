@@ -62,11 +62,11 @@ public class ViewController {
         Set routeTaken = paser.nodeHandler.dijkstraRoute(start, end);
         int distance = paser.nodeHandler.getMinDistance();
         int stepMachine = routeTaken.size();
-        model.addAttribute("begin", start);
-        model.addAttribute("finish", end);
-        model.addAttribute("route",  routeTaken);
-        model.addAttribute("distance", distance);
-        model.addAttribute("steps", stepMachine);
+        model.addAttribute("begin", start + " is the start point");
+        model.addAttribute("finish", end + " is the finish point");
+        model.addAttribute("route",  routeTaken + " is the route taken");
+        model.addAttribute("distance", distance + " is the distance travelled");
+        model.addAttribute("steps", stepMachine + " is number of nodes taken to get to finish");
     }
 
 }
